@@ -1,3 +1,4 @@
 #!/bin/bash
 git -C /usr/share/orchid/orchid-wallpapers pull
 git -C /usr/share/orchid/orchid-bins pull && sudo cp /usr/share/orchid/orchid-bins/bins/* /usr/bin/
+sudo orchid-version
