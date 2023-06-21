@@ -15,24 +15,22 @@ Pour rappel, Gentoo n'est pas conseillée si vous êtes débutant sous Linux, n�
 
 Attention, même si le projet est déployable et utilisable couramment, des problèmes peuvent survenir.
 
-Les éditions disponibles :
+Les stages4 qui seront disponibles dans le future :
 
-- DWM et DWM Gaming (Utilisation avancée).
-- Gnome, Gnome Gaming et Gnome Gaming SystemD.
+- GNOME et GNOME SystemD.
 - KDE Plasma.
-- XFCE Gaming.
-- MATE et MATE Gaming (en test)
+- XFCE
 - Base et Base systemD.
 
 Les éditions gaming embarquent directement l'ensemble des librairies 32bits, le support de vulkan, Wine, et bien d'autres.
 
 Nous proposons aussi l'installation du noyau [TkG](https://github.com/Frogging-Family/linux-tkg) au travers de nos outils.
 
-Le guide d'installation est déjà disponible [ici](https://github.com/orchid-linux/orchid/blob/main/INSTALLATION.md).
+Le guide d'installation est déjà disponible [ici](https://github.com/cAptive5976/orchid-reborn/blob/main/INSTALLATION.md).
 
-[Remplacé par la commande orchid-help] Le guide de nos outils est disponible [ici](https://github.com/orchid-linux/orchid/blob/main/TOOLS.md).
+[Remplacé par la commande orchid-help] Le guide de nos outils est disponible [ici](https://github.com/cAptive5976/orchid-reborn/blob/main/TOOLS.md).
 
-Un outil de migration est disponible afin de "convertir" une Gentoo existante en Orchid est disponible [ici](https://raw.githubusercontent.com/orchid-linux/orchid-bins/main/bins/orchid-transform). Il installe la suite complète de nos outils, et est utilisé lors de la création des stages officiels et communautaires.
+Un outil de migration est disponible afin de "convertir" une Gentoo existante en Orchid est disponible [ici](https://raw.githubusercontent.com/cAptive5976/orchid-bins/main/bins/orchid-transform). Il installe la suite complète de nos outils, et est utilisé lors de la création des stages officiels et communautaires.
 
 Caractéristiques principales d'Orchid :
 
@@ -41,11 +39,11 @@ Caractéristiques principales d'Orchid :
 - C'est une installation en CLI (qui reste plus rapide et simple que celle de Gentoo), ou au travers d'un script interactif.
 - Tous les paquets de Gentoo sont disponibles.
 - Nous utilisons le noyau gentoo-kernel-bin, qui suit le canal stable LTS officiel de Linux. Un déblocage facilité est possible.
+- Noyau tkg proposé directement dans nos outils
 - `eix` est installé par défaut.
-- Gnome, KDE Plasma, XFCE, MATE etDWM sont disponibles.
-- L'environnement complet `orchid-dwm` est disponible au téléchargement, avec des customisations sympatiques et un look moderne
-- Firefox en binaire est aussi installé par défaut.
-- Nous avons fait le choix d'intégrer Flatpak par défaut pour des raisons de praticité. Il est également utilisé pour les outils Gaming dans les éditions respectives.
+- Gnome, KDE Plasma, XFCE et sont disponibles.
+- LibreWolf en binaire est aussi installé par défaut.
+- Nous avons fait le choix d'intégrer Flatpak par défaut pour des raisons de praticité
 
 
 Les différentes archives sont disponibles au travers des liens fournis dans le guide d'installation.
@@ -53,7 +51,7 @@ Les différentes archives sont disponibles au travers des liens fournis dans le 
 ## Contributeurs
 
 - [Hydaelyn](https://github.com/wamuu-sudo) : Créateur du projet.
-- Vinceff : Documentation et mise en projet.
+- [cAptive](https://github.com/cAptive5976) : Developpeur de Orchid Reborn, remplacent de Orchid a partir de la version 1.5.0
 - [Chevek](https://github.com/chevek) : Outils Gaming et optimisation, développeur du projet.
 - [Babilinx](https://github.com/babilinx) : Optimisation du projet et développeur du projet.
 - [Crystal](https://crystal-trd.github.io) : Développeuse du projet.
@@ -61,6 +59,4 @@ Les différentes archives sont disponibles au travers des liens fournis dans le 
 - [Selphy](https://github.com/Selphy1337) : Traductrice vers l'Allemand 
 - Piaf_Jaune : Responsable look et graphiste.
 - Kirik : Vérification de la documentation.
-- [LoboTommy](https://github.com/s7relok) : Communication et CM
-- [cAptive](https://github.com/cAptive5976) : Communication et CM
 - L'ensemble des membres du serveur [Discord Gaming Linux FR](https://discord.gg/KAzznM4Fnb).
