@@ -14,9 +14,7 @@ Basiquement, cet outil synchronise les différents sous-repos d'Orchid :
 
 - Les fonds d'écrans. (d'origine diverses)
 - Les outils.
-- DWM si vous l'avez choisi.
-- Les outils gaming si vous les avez aussi.
-
+- 
 Cette commande s'utilise simplement en lançant `orchid-sync`.
 
 ### orchid-install
@@ -132,9 +130,21 @@ Lancer la commande et l'opération se fait automatiquement :
 wget https://raw.githubusercontent.com/orchid-linux/orchid-bins/main/bins/orchid-transform && chmod +x ./orchid-transform && sudo ./orchid-transform
 ```
 
+### orchid-swap-git
+
+Permet simplement de changé le mode de syncronisation de portage de rsync vers Git (en général plus rapide)
+
+### orchid-swap-rsync
+
+Permet simplement de changé le mode de syncronisation de portage de Git vers rsync
+
+### orchid-fetch
+
+Fork de [neofetch](https://github.com/dylanaraps/neofetch) crée par [cAptive](https://github.com/cAptive5976) mais plus léger, plus rapide et optimisé pour Orchid
+
 ## Contributeurs
 - [Hydaelyn](https://github.com/wamuu-sudo) : Créateur du projet.
-- Vinceff : Documentation et mise en projet.
+- [cAptive](https://github.com/cAptive5976) : Developpeur de Orchid Reborn, remplacent de Orchid a partir de la version 1.5.0
 - [Chevek](https://github.com/chevek) : Outils Gaming et optimisation, développeur du projet.
 - [Babilinx](https://github.com/babilinx) : Optimisation du projet et développeur du projet.
 - [Crystal](https://crystal-trd.github.io) : Développeuse du projet.
