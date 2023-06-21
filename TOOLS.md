@@ -134,13 +134,28 @@ wget https://raw.githubusercontent.com/orchid-linux/orchid-bins/main/bins/orchid
 
 Permet simplement de changé le mode de syncronisation de portage de rsync vers Git (en général plus rapide)
 
+Elle s'utilise comme suit :
+ ```
+sudo orchid-swap-git
+ ```
+
 ### orchid-swap-rsync
 
 Permet simplement de changé le mode de syncronisation de portage de Git vers rsync
 
+Elle s'utilise comme suit :
+ ```
+sudo orchid-swap-rsync
+ ```
+
 ### orchid-fetch
 
 Fork de [neofetch](https://github.com/dylanaraps/neofetch) crée par [cAptive](https://github.com/cAptive5976) mais plus léger, plus rapide et optimisé pour Orchid
+
+Elle s'utilise comme suit :
+ ```
+orchid-fetch
+ ```
 
 ## Contributeurs
 - [Hydaelyn](https://github.com/wamuu-sudo) : Créateur du projet.
