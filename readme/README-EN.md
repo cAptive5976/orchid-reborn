@@ -6,7 +6,7 @@ Orchid is a modern and well designed distro of Gentoo for PC and Laptop users.
 
 [Version Française](https://github.com/orchid-linux/orchid/blob/main/README.md)
 
-Current version of the project : 1.4
+Current version of the project : 1.4 (Alpha : 1.5_dev)
 
 We highly recommend joining our Discord server to be kept up-to-date with the updates, and an overall better support [Orchid Linux](https://discord.gg/Wegk7a6TQ8)
 
@@ -16,21 +16,21 @@ Side note, Gentoo isn't recommended for new linux users, but, trying it is an ed
 
 Warning, eventhough this project is deployable and ready-to-use, issues can accure.
 
-New editions are availible :
+Stages4 will be available soon
 
-- DWM & DWM Gaming.
-- Gnome, Gnome Gaming and Gnome Gaming SystemD.
-- KDE Plasma (WIP).
-- XFCS Gaming
+- GNONE OpenRC and GNOME SystemD
+- KDE Plasma
+- XFCE
+- Cinnamon
 
 
 Gaming editions come bundled with 32bits libs, vulkan support, wine, and much more.
 
 We also offer the installation of the [TkG](https://github.com/Frogging-Family/linux-tkg) kernel through our tools.
 
-An installation guide is availible [here](https://github.com/wamuu-sudo/orchid/blob/main/INSTALLATION-EN.md).
+An installation guide is availible [here](https://github.com/cAptive5976/orchid-reborn/blob/main/INSTALLATION-EN.md).
 
-A documentation page about our tools is availible [here](https://github.com/orchid-linux/orchid/blob/main/TOOLS-EN.md).
+A documentation page about our tools is availible [here](https://github.com/cAptive5976/orchid-reborn/blob/main/TOOLS-EN.md).
 
 What makes Orchid different from other distros:
 
@@ -40,18 +40,15 @@ What makes Orchid different from other distros:
 - All Gentoo packages are availible.
 - We use the gentoo-kernel-bin Kernel, which follows the LTS channel of linux. Thus making debuging easy and faster.
 - `eix` pre-installed.
-- GNOME , KDE Plasma, and Suckless DWM availible for install.
-- A complete dwm environnement `orchid-dwm` availible for download with great optimisations and a sleek design.
-- Firefox pre-installed as a binary so you are ready to go ASAP.
-- Only OpenRC installs are available, while SystemD is usable on Gentoo aswell.
-- We took the decision to integrate Flatpak by default for practicity raisons. It is also used for the Gaming tools in their respective editions. 
+- LibreWolf and Chromium pre-installed as a binary so you are ready to go ASAP.
+- We took the decision to integrate Flatpak by default for practicity raisons
+- Snapd is NOT installed
 
 Different archives are availible in the links provided in the installation guide.
 
 ## Contributors
-
+- [cAptive](https://github.com/cAptive5976) : New main devlopper for Orchid Reborn 1.5+
 - [Hydaelyn](https://github.com/wamuu-sudo) : Founder of the project.
-- Vinceff : Documentation & projet management.
 - [Chevek](https://github.com/chevek) : Gaming tools and Optimisation.
 - [Babilinx](https://github.com/babilinx) : Project Optimisation.
 - [Crystal](https://crystal-trd.github.io) : English translation.
@@ -59,6 +56,5 @@ Different archives are availible in the links provided in the installation guide
 - [Selphy](https://github.com/Selphy1337) : German translation. 
 - Piaf_Jaune : Graphist & Look'n Feel.
 - Kirik : Documentation verification.
-- [LoboTommy](https://github.com/s7relok) : Communication and CM
-- [cAptive](https://github.com/cAptive5976) : Communication and CM
+
 - All the users of  [Discord Gaming Linux FR](https://discord.gg/KAzznM4Fnb).
